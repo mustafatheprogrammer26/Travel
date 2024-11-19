@@ -1,0 +1,340 @@
+
+.part1{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    background-position: top center;
+    background-image: linear-gradient(
+        rgba(199, 199, 199, 0.6),
+        rgba(199, 199, 199, 0.6)), url(img/hero_1.jpg);
+}
+.div>.navbar-brand{
+   font-weight: bold;
+}
+.navbar-nav>.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-item>.hm{
+    color: #ffffff;
+    font-weight: 400;
+}
+.nav-item>.hm:hover{
+    color: #ffffff;
+    font-weight: 400;
+}
+.nav-item>.mm{
+    color: #efefef;
+}
+.nav-item>.mm:hover{
+    color: #ffffff;
+    font-weight: 400;
+}
+.nav-item>.btn{
+    padding-top: 10px;
+    padding-left: 22px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(255, 81, 18);
+    border-radius: 20px;
+    color: rgb(255, 170, 138);
+    background-color: rgb(255, 81, 18);
+}
+.nav-item>.btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(189, 189, 189);
+}
+.p11{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.head{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.head>h1{
+    font-family: "Playfair Display", serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+}
+@media (max-width : 376px) {
+.head>h1{
+    font-size: 50px;
+}    
+}
+@media (max-width : 376px) {
+    .text>p{
+        font-size: 14px;
+    }    
+    }
+.text{
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+.text>p{
+    font-size: 22px;
+    color: #ffffff;
+}
+.play>i{
+    padding: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.play{
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.play:hover i{
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.play>span{
+    padding-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.part2{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.part2>.container{
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.part2>.container>.row{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.row>.explore{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.explore>h1{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 550;
+    color: rgb(29, 34, 91);
+}
+.explore>p{
+    font-size: 16px;
+    color: #a0a0a0;
+}
+.butt{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 81, 18);
+    color: rgb(255, 170, 138);
+    border: 1px solid rgb(255, 81, 18);
+    border-radius: 50px ;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.butt:hover{
+    opacity: 0.7;
+}
+.picc>div{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+.picc>div>img{
+    width:  300px;
+    height: 450px;
+}
+.picc>div{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+@media (max-width : 375px) {
+.row>.picc{
+        display:block;
+    }    
+    }
+@media (max-width : 375px) {
+.picc>div>img{
+    width: 500px;
+    height: 350px;
+}    
+}
+
+.part3{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    background-color: #f4f4f4;
+}
+.part3>.container{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.service{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.service>h2{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    color: rgb(29, 34, 91);
+}
+.service>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #a0a0a0;
+}
+.ser{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ser>h4{
+    font-family: "Playfair Display", serif;
+    font-weight: 520;
+    color: rgb(29, 34, 91);
+}
+.ser>p{
+    color: #a0a0a0;
+}
+.svg{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: 1px solid pink;
+    background-color: pink;
+}
+
+.part4{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.part4>.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.part4>.row{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.sweet{
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+.sweet>h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    color: rgb(29, 34, 91);   
+}
+.sweet>p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #a0a0a0;
+}
+@media (max-width : 730px) {
+    .part4>.container>.row{
+        flex-direction: column-reverse;
+    }    
+}
+@media (max-width : 735px) {
+    .sweet>h1{
+        font-size: 33px;
+        font-weight: 550;
+    }    
+}
+
+.part5{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #efefef;
+}
+.part5>.container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.part5>.container>div>h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 550;
+    color: rgb(29, 34, 91);
+}
+.part5>.container>.angle{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.part5>.container>.angle>span{
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius:50px;
+    background-color: #a0a0a0;
+}
+.part5>.container>.angle>span>i{
+    font-size: 20px;
+    font-weight: 600;
+}
+.part5>.container>.angle>span:hover{
+    background-color: rgb(255, 81, 18);
+    cursor: pointer;
+    color: #ffffff;
+    transition-duration: 1.2s;
+}
+.part5>.container>.row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.part5>.container>.row>.caresol>img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.part5>.container>.row>.caresol>h6{
+    color: rgb(255, 81, 18);
+}
+.part5>.container>.row>.caresol>p{
+    font-weight: 500;
+}
+.part5>.container>.row>.caresol>h3{
+    font-weight: 500;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
